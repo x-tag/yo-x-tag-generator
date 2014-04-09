@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title><%= moduleName %> - X-Tag</title>
+
+  <link rel="stylesheet" type="text/css" href="x-tag-components.css"/>
+  <link rel="stylesheet" type="text/css" href="../src/<%= fileName %>.css"/>
+
+  <script type="text/javascript" src="x-tag-components.js"></script>
+  <script type="text/javascript" src="../src/<%= fileName %>.js"></script>
+
+
+  <style type="text/css">
+
+  </style>
+</head>
+
+<body id="app">
+
+<% if(componentType == 'Element') {%>
+  <<%= tagName %>></<%= tagName %>>
+<% } %>
+</body>
+
+<script type="text/javascript">
+
+  document.addEventListener('DOMComponentsLoaded', function(){
+
+  });
+
+</script>
+
+</html>

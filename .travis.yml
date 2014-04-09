@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - '0.10'
+before_install:
+  - currentfolder=${PWD##*/}
+  - if [ "$currentfolder" != 'generator-x-tag-generator' ]; then cd .. && eval "mv $currentfolder generator-x-tag-generator" && cd generator-x-tag-generator; fi
+

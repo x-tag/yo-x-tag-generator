@@ -1,0 +1,19 @@
+{
+  "name": "<%= _.slugify(moduleName) %>",
+  "description": "<%= description %>",
+  "version": "0.0.0",
+  "author": "<%= authorName %>",
+  "keywords": [
+  	"<%= componentType %>",
+    "web-components",
+    "x-tag"
+  ],
+  "main": [
+    "src/<%= fileName %>.js"<% if(componentType == 'Element') { %>
+    ,"src/<%= fileName %>.css"<% } %><% if(stylus) { %>
+    ,"src/<%= fileName %>.styl"<% } %>
+  ],
+  "dependencies": {
+    "x-tag-core": "*"
+  }
+}
