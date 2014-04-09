@@ -7,7 +7,7 @@
 
 ### About
 
-X-Tag Generator sets up the basic folder structure and files for a new web component.  We included some useful Grunt commands that will aid in route tasks like building, testing and pushing your component.
+X-Tag Generator sets up the basic folder structure and files for a new web component.  We included some useful Grunt commands that will aid in routine tasks like building, testing and pushing your component.
 
 The main source files are in `./src/`.  The `./demo/` folder contains an html scaffold for testing the development of your component.
 
