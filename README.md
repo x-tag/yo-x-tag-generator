@@ -5,17 +5,19 @@
 
 ## Getting Started
 
-### What is Yeoman?
+### About
 
-Basically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.
+X-Tag Generator sets up the basic folder structure and files for a new web component.  We included some useful Grunt commands that will aid in route tasks like building, testing and pushing your component.
+
+The main source files are in `./src/`.  The `./demo/` folder contains an html scaffold for testing the development of your component.
+
+### Install Yeoman
 
 ```
 $ npm install -g yo
 ```
 
-### Yeoman Generators
-
-Yeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.
+### Install X-Tag Component Generator
 
 To install generator-x-tag-generator from npm, run:
 
@@ -35,27 +37,19 @@ Finally, initiate the generator:
 $ yo x-tag-generator
 ```
 
-### X-Tag Component Generator
-
 Your component needs the latest X-Tag Core library, which can be installed by running:
 
 ```
 $ bower install && grunt build
 ```
 
-
-X-Tag Generator sets up the basic folder structure and files for a new web component.  We included some useful Grunt commands that will aid in route tasks like building, testing and pushing your component.
-
-The main source files are in `./src/`.  The `./demo/` folder contains an html scaffold for testing the development of your component.
-
+### Share
 
 Once you've completed your component, don't forget to share it.
 
 ```
 $ bower register x-tag-[your-component-name] [git endpoint]
 ```
-
-
 
 
 ## License
