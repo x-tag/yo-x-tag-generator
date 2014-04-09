@@ -35,6 +35,8 @@ Finally, initiate the generator:
 $ yo x-tag-generator
 ```
 
+### X-Tag Component Generator
+
 Your component needs the latest X-Tag Core library, which can be installed by running:
 
 ```
