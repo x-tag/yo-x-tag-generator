@@ -41,6 +41,12 @@ Your component needs the latest X-Tag Core library, which can be installed by ru
 $ bower install && grunt build
 ```
 
+
+X-Tag Generator sets up the basic folder structure and files for a new web component.  We included some useful Grunt commands that will aid in route tasks like building, testing and pushing your component.
+
+The main source files are in `./src/`.  The `./demo/` folder contains an html scaffold for testing the development of your component.
+
+
 Once you've completed your component, don't forget to share it.
 
 ```
@@ -48,17 +54,6 @@ $ bower register x-tag-[your-component-name] [git endpoint]
 ```
 
 
-X-Tag Generator sets up the basic folder structure and files for a new web component.  We included some useful Grunt commands that will aid in route tasks like building, testing and pushing your component.
-
-The main source files are in `./src/`.  The `./demo/` folder contains an html scaffold for testing the development of your component.
-
-
-
-### Getting To Know Yeoman
-
-Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.
-
-If you'd like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).
 
 
 ## License
