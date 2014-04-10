@@ -43,6 +43,26 @@ Your component needs the latest X-Tag Core library, which can be installed by ru
 $ bower install && grunt build
 ```
 
+### File Structure
+
+The basic structure of the project is given in the following way.
+
+```
+.
+
+├── .bowerrc
+├── .editorconfig
+├── .gitignore
+├── bower.json
+├── package.json
+├── xtag.json
+├── Gruntfile.js
+├── README.md
+├── demo/index.html
+├── src/my-element.js
+└── src/my-element.css
+```
+
 ### Share
 
 Once you've completed your component, don't forget to share it.
