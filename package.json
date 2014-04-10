@@ -1,7 +1,7 @@
 {
   "name": "generator-x-tag-generator",
   "version": "0.1.0",
-  "description": "Yeoman generator",
+  "description": "X-Tag Web Component generator",
   "license": "MIT",
   "main": "app/index.js",
   "author": {
@@ -19,7 +19,8 @@
     "app"
   ],
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "x-tag"
   ],
   "dependencies": {
     "yeoman-generator": "~0.16.0",
